@@ -25,4 +25,5 @@ export * from './storage';
 export * from './storage-template';
 export * from './system-config';
 export * from './tag';
+export * from './trash';
 export * from './user';

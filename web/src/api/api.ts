@@ -18,6 +18,7 @@ import {
   ServerInfoApi,
   SharedLinkApi,
   SystemConfigApi,
+  TrashApi,
   UserApi,
   UserApiFp,
   base,
@@ -44,6 +45,7 @@ class ImmichApi {
   public personApi: PersonApi;
   public systemConfigApi: SystemConfigApi;
   public userApi: UserApi;
+  public trashApi: TrashApi;
 
   private config: configuration.Configuration;
   private key?: string;
@@ -72,6 +74,7 @@ class ImmichApi {
     this.personApi = new PersonApi(this.config);
     this.systemConfigApi = new SystemConfigApi(this.config);
     this.userApi = new UserApi(this.config);
+    this.trashApi = new TrashApi(this.config);
   }
 
   private createUrl(path: string, params?: Record<string, unknown>) {

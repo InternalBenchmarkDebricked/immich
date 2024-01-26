@@ -21,6 +21,7 @@ import { StorageService } from './storage';
 import { StorageTemplateService } from './storage-template';
 import { SystemConfigService } from './system-config';
 import { TagService } from './tag';
+import { TrashService } from './trash';
 import { UserService } from './user';
 
 const providers: Provider[] = [
@@ -46,6 +47,7 @@ const providers: Provider[] = [
   StorageTemplateService,
   SystemConfigService,
   TagService,
+  TrashService,
   UserService,
 ];
 

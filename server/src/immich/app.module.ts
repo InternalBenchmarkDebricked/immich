@@ -30,6 +30,7 @@ import {
   SharedLinkController,
   SystemConfigController,
   TagController,
+  TrashController,
   UserController,
 } from './controllers';
 import { ErrorInterceptor, FileUploadInterceptor } from './interceptors';
@@ -62,6 +63,7 @@ import { ErrorInterceptor, FileUploadInterceptor } from './interceptors';
     SharedLinkController,
     SystemConfigController,
     TagController,
+    TrashController,
     UserController,
     PersonController,
   ],
